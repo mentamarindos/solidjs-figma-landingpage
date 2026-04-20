@@ -2,6 +2,8 @@
 
 A pixel-perfect, dark-themed landing page built with **SolidJS** and **Tailwind CSS**, meticulously crafted to match a specific Figma design.
 
+<img width="1847" height="2225" alt="figma_design" src="https://github.com/user-attachments/assets/d533b728-6770-4de2-a2ed-a095e744b659" />
+
 ## 🚀 Tech Stack
 
 - **Framework:** [SolidJS](https://www.solidjs.com/) + [Solid Start](https://start.solidjs.com/)
