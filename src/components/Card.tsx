@@ -6,7 +6,7 @@ interface CardProps extends ParentProps {
 
 export default function Card(props: CardProps) {
   return (
-    <div class={`bg-dark-card rounded-[2.5rem] p-8 ${props.class ?? ""}`}>
+    <div class={`bg-dark-card rounded-[22px] ${props.class ?? ""}`}>
       {props.children}
     </div>
   );
