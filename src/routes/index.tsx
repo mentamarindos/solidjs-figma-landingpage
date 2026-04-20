@@ -46,15 +46,12 @@ export default function Home() {
           </div>
 
           {/* Right Side (Column Span 5) */}
-          <div class="lg:col-span-5 space-y-6 md:space-y-8">
+          <div class="lg:col-span-5 space-y-6 md:space-y-8 flex flex-col justify-between">
             <PetCard />
             
-            <div class="bg-dark-card rounded-[2.5rem] p-8">
-              <h3 class="text-xl font-bold mb-6">Events</h3>
-              <Suspense fallback={<div>Loading events...</div>}>
-                <EventsList events={events() || []} />
-              </Suspense>
-            </div>
+            <Suspense fallback={<div>Loading events...</div>}>
+              <EventsList events={events() || []} />
+            </Suspense>
           </div>
 
         </div>

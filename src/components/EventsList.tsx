@@ -8,13 +8,13 @@ interface EventItemProps {
 
 function EventItem(props: EventItemProps) {
   return (
-    <div class="flex items-center gap-4 group cursor-pointer hover:bg-dark-card-hover p-2 rounded-2xl transition-colors">
-      <div class="w-20 h-20 rounded-2xl overflow-hidden flex-shrink-0">
+    <div class="flex items-center gap-8 group cursor-pointer hover:bg-white/5 p-4 rounded-[20px] transition-all">
+      <div class="w-24 h-24 rounded-[12px] overflow-hidden flex-shrink-0">
         <img src={props.image} alt={props.title} class="w-full h-full object-cover" />
       </div>
       <div>
-        <h4 class="font-bold text-white text-base leading-tight mb-1">{props.title}</h4>
-        <p class="text-xs text-gray-500">{props.date}</p>
+        <h4 class="font-black text-2xl text-white leading-tight mb-2 tracking-tight">{props.title}</h4>
+        <p class="text-base text-gray-500 font-bold">{props.date}</p>
       </div>
     </div>
   );
