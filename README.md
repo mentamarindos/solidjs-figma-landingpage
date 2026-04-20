@@ -1,32 +1,46 @@
-# SolidStart
+# solidjs-figma-landingpage
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
+A pixel-perfect, dark-themed landing page built with **SolidJS** and **Tailwind CSS**, meticulously crafted to match a specific Figma design.
 
-## Creating a project
+## 🚀 Tech Stack
 
-```bash
-# create a new project in the current directory
-npm init solid@latest
+- **Framework:** [SolidJS](https://www.solidjs.com/) + [Solid Start](https://start.solidjs.com/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons:** SVG & Phosphor-inspired custom icons
+- **Runtime:** [Bun](https://bun.sh/)
 
-# create a new project in my-app
-npm init solid@latest my-app
-```
+## ✨ Features
 
-## Developing
+- **Pixel-Perfect Fidelity:** Exact color palette, spacing, and typography matching the original design.
+- **Responsive Layout:** Adaptive grid system for all screen sizes.
+- **Bento Grid Style:** Organized sections for Banner, Crypto, Communities, and Events.
+- **Performance:** Optimized assets and minimal bundle size.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 🛠️ Installation & Setup
 
-```bash
-npm run dev
+1. **Clone the repository:**
+   ```bash
+   git clone git@github.com:mentamarindos/solidjs-figma-landingpage.git
+   cd solidjs-figma-landingpage
+   ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+2. **Install dependencies:**
+   ```bash
+   bun install
+   ```
 
-## Building
+3. **Run the development server:**
+   ```bash
+   bun dev
+   ```
 
-Solid apps are built with _presets_, which optimise your project for deployment to different environments.
+## 📂 Project Structure
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different preset, add it to the `devDependencies` in `package.json` and specify in your `app.config.js`.
+- `src/components/` - Reusable UI components (Banner, Card, Button, etc.)
+- `src/routes/` - Page layouts and routing
+- `src/lib/` - Mock API and utility functions
+- `src/app.css` - Tailwind theme and global styles
 
-## This project was created with the [Solid CLI](https://github.com/solidjs-community/solid-cli)
+## 📄 License
+
+MIT
