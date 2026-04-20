@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-dark-bg: #0a0a0a;
-  --color-dark-card: #171717;
-  --color-dark-card-hover: #262626;
+  --color-dark-bg: #141414;
+  --color-dark-card: #000000;
+  --color-dark-card-hover: #0a0a0a;
 }
 
 body {

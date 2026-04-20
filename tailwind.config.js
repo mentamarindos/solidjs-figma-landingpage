@@ -7,9 +7,9 @@ export default {
     extend: {
       colors: {
         dark: {
-          bg: "#0a0a0a",
-          card: "#171717",
-          "card-hover": "#262626",
+          bg: "#ff0000",
+          card: "#000000",
+          "card-hover": "#0a0a0a",
         },
       },
     },
